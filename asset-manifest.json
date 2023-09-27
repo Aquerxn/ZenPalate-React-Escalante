@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Aquerxn/PreEntrega1-Escalante/static/css/main.e66c591b.css",
+    "main.js": "/Aquerxn/PreEntrega1-Escalante/static/js/main.13da6e69.js",
+    "static/media/cart.png": "/Aquerxn/PreEntrega1-Escalante/static/media/cart.eca5ee08f37494f3f691.png",
+    "index.html": "/Aquerxn/PreEntrega1-Escalante/index.html",
+    "main.e66c591b.css.map": "/Aquerxn/PreEntrega1-Escalante/static/css/main.e66c591b.css.map",
+    "main.13da6e69.js.map": "/Aquerxn/PreEntrega1-Escalante/static/js/main.13da6e69.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e66c591b.css",
+    "static/js/main.13da6e69.js"
+  ]
+}
