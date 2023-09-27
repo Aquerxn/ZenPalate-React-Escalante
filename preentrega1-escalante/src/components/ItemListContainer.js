@@ -1,16 +1,9 @@
-const ItemListContainer = (props) => {
-    return(
-        <ul>
-            <li>{props.itemUno}</li>
-            <li>{props.itemDos}</li>
-            <li>{props.itemTres}</li>
-            <li>{props.itemCuatro}</li>
-        </ul>
-    )
-
-
-}
-
-
-
-export default ItemListContainer
+const ItemListContainer = ({ greeting }) => {
+    return (
+        <div className="container">
+            <p>{greeting}</p>
+        </div>
+    );
+    };
+    
+export default ItemListContainer;
