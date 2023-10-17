@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cardItem{
+    border-radius: 10px;
+    height: 520px;
+    width: 280px;
+    padding: 6px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) 
+}
+
+/* Imagen */
+.cardItem .cardImg{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.cardItem .cardImg img{
+    width: 80%;
+    border-radius: 10px;
+}
+
+/* Descripcion */
+.cardDescription{
+    display: flex;
+    flex-direction: column;
+    height: 35%;
+}
+
+.cardDescription .title{
+    font-size: 21px;
+    margin: 6px ;
+}
+
+.cardDescription .description{
+    display: none;
+}
+
+.cardDescription .cant{
+    color: black;
+    font-size: 13px;
+    margin: 6px 0;
+}
+
+.cardDescription .precio{
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 6px 0;
+}
+
+/* Botones */
+
+.buttons{
+    padding: 7px;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons #detalles{
+    width: 70%;
+    height: 80%;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+
+.buttons #addCart{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+
+.buttons #addCart img{
+    width: 28px;
+}

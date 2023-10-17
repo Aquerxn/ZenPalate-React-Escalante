@@ -1,12 +1,12 @@
 import './style.css';
 import NavBar from './components/NavBar';
-import ItemListContainer from './components/ItemListContainer';
+import ContainerCardItems from './components/ContainerCardItems';
 
 function App() {
   return (
     <div>
       <NavBar />
-      <ItemListContainer greeting="¡Bienvenido a nuestra tienda!" />
+      <ContainerCardItems />
     </div>
   );
 }
