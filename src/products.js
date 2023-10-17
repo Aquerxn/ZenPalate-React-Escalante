@@ -41,7 +41,7 @@ const productos = [
         description: "",
         stock: 15,
         type: "Bebidas",
-        imagen: imagenProducto4,
+        imagen: imagenProducto6,
         price: 2000,
     },
     {
@@ -59,7 +59,7 @@ const productos = [
         description: "",
         stock: 8,
         type: "Postres",
-        imagen: imagenProducto6,
+        imagen: imagenProducto4,
         price: 3000,
     },
     {
