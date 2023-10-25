@@ -88,7 +88,7 @@
 
 /* precio */
 .detailsItem .containerRigth .cardDescription .precio{
-    color: #5b00fb;
+    color:  black;
     font-weight: bold;
     font-size: 55px;
     margin: 10px 0;
@@ -108,7 +108,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #5b00fb;
+    border: 1px solid black;
     border-radius: 50px;
     height: 60px;
 }
@@ -128,7 +128,7 @@
 
 
 .detailsItem .containerRigth .buttons .addCantCart div #quitar, .detailsItem .containerRigth .buttons .addCantCart div #aumentar {
-    background-color: #5b00fb;
+    background-color: black;
     border: none;
     color: white;
     width: 35px;
@@ -139,7 +139,7 @@
 
 .detailsItem .containerRigth .buttons #detalles{
     width: 48%;
-    background-color: #5b00fb;
+    background-color: black;
     border-radius: 50px;
     color: white;
     border: none;
