@@ -29,7 +29,7 @@ const ContainerCardItems = () => {
     return(
         <div className="containerCardItems">
             {
-                (datos.length === 0 ) ? <div className="containerSpinner"> <MoonLoader color="#5b00fb" /> </div>
+                (datos.length === 0 ) ? <div className="containerSpinner"> <MoonLoader color="black" /> </div>
                 : datos.map( product => (
                     <CardItem 
                         key={product.id}

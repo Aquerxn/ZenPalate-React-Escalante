@@ -1,28 +1,34 @@
 import Brand from "./Brand";
 import ItemListContainer from "./ItemListContainer";
 import CartWidget from "./CartWidget";
+import ContainerCart from "./ContainerCart";
+import ContextCart from "./ContextCart";
+
 
 
 const NavBar = () => {
     return (
-        <header>
-            <div className="containerBrand">
-                <Brand />
-            </div>
+        <ContextCart>
+            <header>
+                <div className="containerBrand">
+                    <Brand />
+                </div>
 
-            <nav className="categorias">
-            <ItemListContainer 
-                        itemUno = "Platos Principales"
-                        itemDos = "Postres"
-                        itemTres = "Bebidas"
-                        itemCuatro = "Adicionales"
-                    />
-            </nav>
+                <nav className="categorias">
+                <ItemListContainer 
+                            itemUno = "Platos Principales"
+                            itemDos = "Postres"
+                            itemTres = "Bebidas"
+                            itemCuatro = "Adicionales"
+                        />
+                </nav>
 
-            <div className="containerCart">
-                <CartWidget/>
-            </div>
-        </header>
+                <div className="containerCart">
+                    <CartWidget/>
+                </div>
+                <ContainerCart />
+            </header>
+        </ContextCart>
     )
 }
 
